@@ -19,7 +19,7 @@ The student have to select their class and course.
 2. Staff : -  Complains regarding staff like Irregular lectures, Communication problem, Partiality, etc.
 3. Subjects : - Complains regarding subjects.
 4. Food : - Complains regarding food like Food quality, Food quantity, Cost, etc.
-5. Hygine : - Complains regarding hygine like Cleanliness, etc.
+5. Hygiene : - Complains regarding hygiene like Cleanliness, etc.
 6. Material Requirements : - Complains regarding Material requirement like stationary, etc.
 7. Parking Space : - Complains regarding parking space.
 8. Library Requirements : - Requierment of books in library.
@@ -38,5 +38,5 @@ The student have to select their class and course.
 
 
 ### Demo Images
-<img src="">
-
+<img src="https://imgur.com/B90AlDC" height="200px">
+![alt text](https://imgur.com/B90AlDC)
