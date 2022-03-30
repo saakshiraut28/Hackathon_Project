@@ -51,9 +51,9 @@ if(isset($_POST['save']))
         </div>
         <!-- <div class="content w-full">
             <!--**************************************** Complete Container *******************************-->
-        <div class="container bg-white grid justify-center py-10 font-montserrat px-5  ">
+        <div class="hero bg-white grid justify-center py-10 font-montserrat px-3 md:px-6 ">
             <!--**************************************** Main Section *******************************-->
-            <div class="">
+            <div class="note font-bold">
                 <span class="">Please fill out the following form inorder to submit your grievances.</span>
             </div>
             <form class="my-4 bg-[#F6F6F6] py-2 px-4" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
@@ -133,6 +133,9 @@ if(isset($_POST['save']))
         <!--************************************************Footer***************************************-->
         <footer class="bg-black text-white py-4 lg:px-10 px-4 sticky bottom-0">
             <div class="grid grid-cols-2">
+                <div class="grid justify-start">
+                    <span class="text-sm"><a href="grievance.php" class="hover:no-underline hover:text-white">+ New</a></span>
+                </div>
                 <div class="grid justify-end">
                     <span class="text-sm"> &#169; 2022, Write it.</span>
                 </div>
