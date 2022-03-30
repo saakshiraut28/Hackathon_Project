@@ -65,23 +65,49 @@ if(isset($_POST['save']))
                         <input type="email" name="email" class="form-control" id="inputEmail4" placeholder="Email">
                     </div>
                 </div>
-                <div class="form-row">
-                    <div class="form-group col-md-4">
+                <div class="form-row ">
+                    <div class="form-group col-md-6 ">
                         <label for="inputState">Class and Course</label>
-                        <select name="class" id="inputState" class="form-control">
-                            <option selected>Select one</option>
-                            <option value="FYCO" >FYCO</option>
-                            <option value="SYCO" >SYCO</option>
-                            <option value="TYCO">TYCO</option>
+                        <select name="class"id="inputState" class="form-control ">
+                            <option value="Select one"selected>Select one</option>
+                            <option>First Year Computer Engineering</option>
+                            <option>Second Year Computer Engineering</option>
+                            <option>Third Year Computer Engineering</option>
+                            <option>First Year Civil Engineering</option>
+                            <option>Second Year Civil Engineering</option>
+                            <option>Third Year Civil Engineering</option>
+                            <option>First Year Electrical Engineering</option>
+                            <option>Second Year Electrical Engineering</option>
+                            <option>Third Year Electrical Engineering</option>
+                            <option>First Year Mechanical Engineering</option>
+                            <option>Second Year Mechanical Engineering</option>
+                            <option>Third Year Mechanical Engineering</option>
+                            <option>Staff</option>
+
                         </select>
                     </div>
-                    <div class="form-group col-md-4">
+                    <div class="form-group col-md-6">
                         <label for="inputState">Category</label>
-                        <select name="grievance" id="inputState" class="form-control">
-                            <option selected>Select one</option>
-                            <option value="Utilities">Utilities</option>
-                            <option value="Staff">Staff</option>
-                            <option value="Subjects">Subjects</option>
+                        <select name="grievance"id="inputState" class="form-control">
+                            <option selected>Select the category</option>
+                            <option>Electricity</option>
+                            <option>Staff</option>
+                            <option>Subjects</option>
+                            <option>Food</option>
+                            <option>Hygine</option>
+                            <option>Material Requirements</option>
+                            <option>Parking Space
+                            <option>Library Requirements</option>
+                            <option>Cultural event</option>
+                            <option>Canteen</option>
+                            <option>Wifi allotment</option>
+                            <option>Uniform</option>
+                            <option>Fees and Charges</option>
+                            <option>Backup Staff</option>
+                            <option>Medical Issues</option>
+                            <option>Transportation Issues</option>
+                            <option>Network issues</option>        
+
                         </select>
                     </div>
                 </div>
