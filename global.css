@@ -4,23 +4,11 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-
 @font-face {
     font-family: Montserrat;
     src: url('Montserrat-Regular.ttf');
 }
-body::-webkit-scrollbar {
-    width: 20px;
-  }
-  
-  /* Track */
-body::-webkit-scrollbar-track {
-    color: #000;
-    border-radius: 10px;
-  }
-  
-  /* Handle */
-body::-webkit-scrollbar-thumb {
-    background:linear-gradient(#FF7474,#F173FF);
-    border-radius: 10px;
-  }
+
+tr{
+    background-color: rgb(148, 255, 138);
+}
