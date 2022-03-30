@@ -43,18 +43,20 @@ if(isset($_POST['save']))
 
 <body>
     <div>
-
+            <!--*****************************************Navbar******************************************-->
+            <div class="title grid justify-center bg-[#F6F6F6] py-2">
+            <span
+                class="font-extrabold text-xl md:text-xl text-transparent bg-clip-text bg-gradient-to-r from-[#FF7474] to-[#F173FF]">Write
+                it</span>
+        </div>
         <!-- <div class="content w-full">
             <!--**************************************** Complete Container *******************************-->
         <div class="container bg-white grid justify-center py-10 font-montserrat px-5  ">
             <!--**************************************** Main Section *******************************-->
-            <div class="title grid justify-center ">
-                <span
-                    class="font-extrabold text-3xl md:text-6xl text-transparent bg-clip-text bg-gradient-to-r from-[#FF7474] to-[#F173FF]">Write
-                    it</span>
+            <div class="">
+                <span class="">Please fill out the following form inorder to submit your grievances.</span>
             </div>
-
-            <form class="my-4" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
+            <form class="my-4 bg-[#F6F6F6] py-2 px-4" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
                 <div class="form-row">
                     <div class="form-group col-md-6">
                         <label for="inputfullName">Full Name</label>
@@ -123,8 +125,7 @@ if(isset($_POST['save']))
                     </div>
                 </div>
                 <div class="form-group grid justify-center">
-                    <button type="submit"  name="save" value="submit" class="text-white bg-black hover:text-black hover:bg-white px-4 py-3">Sign
-                        in</button>
+                    <button type="submit"  name="save" value="submit" class="font-extrabold bg-black text-white hover:drop-shadow-2xl px-4 py-3  hover:bg-gradient-to-r hover:from-[#FF7474] hover:to-[#F173FF] ">Submit</button>
                 </div>
             </form>
 
