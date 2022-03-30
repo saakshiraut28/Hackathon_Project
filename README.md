@@ -29,6 +29,7 @@ The student have to select their class and course.
 12. Uniform : - Complains regarding Uniform.
 
 
+
 ### Technology used.
 1. Bootstrap
 2. Tailwind
@@ -38,5 +39,5 @@ The student have to select their class and course.
 
 
 ### Demo Images
-<img src="https://imgur.com/B90AlDC" height="200px">
-![alt text](https://imgur.com/B90AlDC)
+<img src="https://user-images.githubusercontent.com/61539555/160790514-e4094411-f179-430b-8b46-a542e7c4bc36.PNG" height="700px">
+<img src="https://user-images.githubusercontent.com/61539555/160790500-b33e51d0-f066-4c7c-bda0-e1361dd12aac.PNG" height="500px" width="715px" >
