@@ -30,7 +30,7 @@ The student have to select their class and course.
 
 
 
-### Technology used.
+### 💡 Technology used.
 1. Bootstrap
 2. Tailwind
 3. Mysql
@@ -40,4 +40,7 @@ The student have to select their class and course.
 
 ### Demo Images
 <img src="https://user-images.githubusercontent.com/61539555/160790514-e4094411-f179-430b-8b46-a542e7c4bc36.PNG" height="700px">
-<img src="https://user-images.githubusercontent.com/61539555/160790500-b33e51d0-f066-4c7c-bda0-e1361dd12aac.PNG" height="500px" width="715px" >
+<img src="https://user-images.githubusercontent.com/61539555/160793791-181f470a-ec3e-4267-99cd-ebcc5a021541.PNG" height="500px" width="715px" >
+
+## 💡 Conclusion  : 
+This project will help students to communicate their problems to faculty and also help the admin solve their problems . This will also help colleges to provide more facilities by centralizing the grievance portal for all the departments.
