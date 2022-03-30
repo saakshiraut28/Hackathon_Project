@@ -8,23 +8,27 @@ This project is build for Sir Dr. M. S. Gosavi Polytechnic Institute Hackathon. 
 
 ## 💡 Class and Course : -
 The student have to select their class and course. 
-1. Computer Engineering : - The students of First Year Computer Engineering,  Second Year Computer Engineering, Third Year Computer Engineering are 
-2.
-3. 
-4. First Year Civil Engineering
-5. Second Year Civil Engineering
-6. Third Year Civil Engineering
-7. First Year Electrical Engineering
-8. Second Year Electrical Engineering
-9. Third Year Electrical Engineering
-10. First Year Mechanical Engineering 
-11. Second Year Mechanical Engineering
-12. Third Year Mechanical Engineering
+1. Computer Engineering : - This form is especially designed for the students of First year, Third year and Second year to post complains regarding various issues faced by them.
+2. Civil Engineering : - This form is especially designed for the students of First year, Third year and Second year to post complains regarding various issues faced by them.
+3. Mechanical Engineering : - This form is especially designed for the students of First year, Third year and Second year to post complains regarding various issues faced by them.
+4. Electrical Engineering : - This form is especially designed for the students of First year, Third year and Second year to post complains regarding various issues faced by them.
 
-## 💡 Category  : -
-1. Utility
-2. Staff
-3. Subjects
+
+## 💡 Category  : 
+1. Electricity : - Complains regarding electronic devices like Projector, Fans and AC, Tubelights, Audio system, Computers, etc.
+2. Staff : -  Complains regarding staff like Irregular lectures, Communication problem, Partiality, etc.
+3. Subjects : - Complains regarding subjects.
+4. Food : - Complains regarding food like Food quality, Food quantity, Cost, etc.
+5. Hygine : - Complains regarding hygine like Cleanliness, etc.
+6. Material Requirements : - Complains regarding Material requirement like stationary, etc.
+7. Parking Space : - Complains regarding parking space.
+8. Library Requirements : - Requierment of books in library.
+9. Cultural event : - Complains regarding curtual events.
+10. Canteen : - Complains regarding canteen.
+11. Wifi allotment : - Complains regarding wifi like poor network connection.
+12. Uniform : - Complains regarding Uniform.
+
+
 ### Technology used.
 1. Bootstrap
 2. Tailwind
