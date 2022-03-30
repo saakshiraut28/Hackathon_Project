@@ -34,7 +34,7 @@ require_once "access.php";
                     <?php
                     if (mysqli_num_rows($result) > 0) {
                     ?>
-                      <table class='table table-bordered table-striped'>
+                      <table class='table table-dark table-striped'>
                       
                       <tr>
                         <td>Name</td>
@@ -47,11 +47,11 @@ require_once "access.php";
                     $i=0;
                     while($row = mysqli_fetch_array($result)) {
                     ?>
-                    <tr style="<?php if($row["completed"] == 0){ echo "background-color:rgb(255, 113, 113)";}else{echo "background-color:rgb(148, 255, 138)";} ?>">
+                    <tr>
                         <td><?php echo $row["name"]; ?></td>
                         <td><?php echo $row["class"]; ?></td>
                         <td><?php echo $row["message"];?></td>
-                        <td> <?php if($row["completed"] == 0){ echo "Not Completed";} else {echo "Completed";}?></td>
+                        <td style="<?php if($row["completed"] == 0){ echo "background-color:rgb(255, 113, 113)";}else{echo "background-color:rgb(148, 255, 138)";} ?>"> <?php if($row["completed"] == 0){ echo "Not Completed";} else {echo "Completed";}?></td>
                         <td><a href="update.php?id=<?php echo $row["id"]; ?>" title='Update Record'><span class='glyphicon glyphicon-pencil'></span></a>
                         <a href="delete.php?id=<?php echo $row["id"]; ?>" title='Delete Record'><i class='material-icons'><span class='glyphicon glyphicon-trash'></span></a>
                         </td>
