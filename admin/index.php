@@ -32,7 +32,7 @@ require_once "access.php";
             <div class="row">
                 <div class="col-lg-12 mx-auto">
                     <div class="page-header clearfix">
-                        <h2 class="pull-left">Complaints List</h2>
+                        <h2 class="pull-left">Grievances List</h2>
                         <a href="create.php" class="btn btn-success pull-right">Add New Complaint</a>
                     </div>
                    <?php
